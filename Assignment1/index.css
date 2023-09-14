@@ -1,0 +1,150 @@
+body{
+    background-image: url('./images/backgroundimage.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+menu,
+ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  width: 50%;
+  align-items: end;
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+li {
+  flex-grow: 1;
+}
+.column {
+    float: left;
+    width: 40%;
+    justify-content: right;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+  }
+.row{
+    max-width: 100%;
+    height: 50px;
+    background-color:gray;
+}
+.aboutcolumn{
+  float: left;
+  width: 30%;
+  color:white
+
+}
+contactcolumn{
+  float: left;
+  width: 20%;
+  color:white
+
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(9, 3, 3);
+    text-align: center;
+  }
+#footer{
+    font-weight: bolder;
+    color: antiquewhite;
+}
+#contact {
+  border-radius: 20px;
+  background-color: gray;
+  padding: 25px;
+  align-self: center;
+  opacity: 0.7;
+}
+#fname, #country,#message,#mail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ #submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+#address{
+    color: white;
+}
+#submit:hover {
+    background-color: #45a049;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+#intro{
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+details{
+    color: white;
+font-size: large;
+float: right ;
+width: 40%;
+  
+}
+.heading1{
+    color: white;
+}
+.heading2{
+    color: gray;
+    
+}
+.disc1{
+    color: azure;
+}
+p{
+    color: white;
+}
+table, th, td {
+    border: 1px solid;
+    color: white;
+}
+img{
+padding: 10px;
+border: 5px;
+box-shadow: 5px;
+border-style: dotted;
+}
+video{
+  border-style: groove;
+  padding: 10px;
+border: 5px;
+box-shadow: 5px;
+}
